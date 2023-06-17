@@ -131,6 +131,7 @@ button {
 
 .box p {
     text-align: center;
+    color: #1F2937;
 }
 
 /* .quote-section */
@@ -159,3 +160,57 @@ button {
     font-size: 20px;
     font-weight: bold;
 }
+
+/* signup-section */
+.signup-section {
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.signup-section .signup-box {
+    margin: 5em 0;
+    background-color: #3B82F6;
+    width: 70%;
+    border-radius: 7px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.signup-box button {
+    border: 1px solid #FFFFFF;
+}
+
+.signup-container {
+    padding: 30px 20px;
+    margin: 0;
+    color: #E5E7EB;
+}
+
+.signup-container h1 {
+    font-size: 22px;
+    margin: 0;
+}
+
+.signup-container p {
+    margin: 0;
+}
+
+/* footer */
+
+.footer {
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 0;
+}
+
+.footer p {
+    font-size: 14px;
+    color: #E5E7EB;
+}
+
+
