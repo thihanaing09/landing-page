@@ -132,3 +132,30 @@ button {
 .box p {
     text-align: center;
 }
+
+/* .quote-section */
+.quote-section {
+    background-color: #E5E7EB;
+    padding: 5em 0;
+}
+
+.quote-container {
+    display: flex;
+    flex-direction: column;
+    /* gap: 1em; */
+    width: 60%;
+    margin: 0 auto;
+    color: #232c38;
+}
+
+.quote-container .quote {
+    margin: 0;
+    font-style: italic;
+    font-size: 28px;
+}
+
+.quote-container .sign {
+    align-self: flex-end;
+    font-size: 20px;
+    font-weight: bold;
+}
